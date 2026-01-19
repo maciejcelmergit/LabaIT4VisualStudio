@@ -5,6 +5,7 @@
 
 int main()
 {
-    std::cout << "Welcome in my Game!\n";
+    std::cout << "Welcome in My Game!\n";
+
 }
 
