@@ -3,6 +3,8 @@
 
 #include <iostream>
 
+using namespace std;
+
 void Initialize();
 void GetInput();
 void Update();
@@ -14,5 +16,31 @@ int main()
 {
     std::cout << "Welcome in My Game!\n";
 
+}
+
+
+void Initialize()
+{
+    cout << "Initializing ... " << endl;
+}
+
+void GetInput()
+{
+    return;
+}
+
+void Update()
+{
+    return;
+}
+
+void Render()
+{
+    cout <<"Rendering" << endl;
+}
+
+void Shutdown()
+{
+    cout << "Shutdown" << endl;
 }
 
